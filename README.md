@@ -23,3 +23,56 @@ Data Visualization with Power BI: Create interactive dashboards and visual repor
 ---------------------
 A comprehensive report detailing the methodologies used, findings, and recommendations based on the analysis. Interactive visualizations that present the data in an engaging format, facilitating better understanding and decision-making. Enhanced skills in data manipulation, analysis, and visualization using industry-standard tools.
 This capstone project reinforces analytical skills and provides practical experience handling real-world data scenarios, preparing participants for future roles in data analysis and business intelligence.
+
+#### PROJECT 2: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using EXCEL
+-----------------
+This project involves analyzing customer data for a subscription service to identify segments and trends. My goal is to understand customer behavior, track subscription types,  and identify key trends in cancellations and renewals. The final deliverable is a Power BI dashboard that presents your analysis.
+
+   - Excel:
+     1. Analyze customer data using pivot tables to find subscription patterns.
+     2. Calculate the average subscription duration and identify the most popular subscription types.
+     3. Create any other interesting reports.
+
+### DATA SOURCES
+----------------
+The Data sources include the following key points:
+    1. Customer_Id: A unique identifier for each customer, linking them to specific orders and other relevant customer details.
+    2. CustomerName: The name of the individual or organization that holds the subscription.
+    3. Region: The geographical area where the order is placed.
+    4. Subscription Type: The category or level of a subscription that a customer purchases, such as "basic," "premium," or "standard."
+    5. Subscription Start: The date on which a customer's subscription officially begins.
+    6. Subscription End: The date on which a customer's subscription is set to expire, unless renewed.
+    7. Canceled: A status indicating whether a subscription has been terminated by the customer or provider before its end date.
+    8. Revenue: The total income generated from a customer's subscription over a specific period, often calculated based on the subscription price.
+    9. Subscription Duration: The length of time a subscription is active, calculated as the difference between the start and end dates.
+
+These datasets collectively provide a comprehensive view of sales performance, customer behavior, and subscription trends, enabling informed decision-making.
+
+
+### METRICS OF FOCUS
+-------------------------
+   1. Subscription Patterns: This comprises of the following;
+   2. djh
+   3. nxn
+   4. b h
+   5. hvhdc
+   6. hbc
+   7. Average Subscription duration:
+   8. the Most Popular Subscription Type:
+
+### TOOLS USED
+----------------------
+ - Microsoft Excel: 
+    - Pivot Tables: Summarizing data and generating insights based on revenue, units sold, and transaction categories.
+    - Formulas and Functions: Calculate performance metrics and automate processes like sorting and filtering.
+    - Data Visualizations (Charts, Graphs): To create visual representations of trends, comparisons, and key insights. 
+
+
+### DATA VISUALIZATION
+--------------------------
+
+
+    
+    
+     
+
