@@ -99,5 +99,85 @@ Write queries to extract key insights based on the following questions.
  8. find the total number of active and canceled subscriptions.
 
 
+#### QUERIES AND OUTPUT
+--------------
+
+           1.    --------TOTAL NUMBER OF CUSTOMERS FROM EACH REGION--------
+                               SELECT 
+                               Region, 
+                              COUNT(CustomerID) AS TotalCustomers
+                              FROM [dbo].[CustomerSales]
+                              GROUP BY 
+                              Region
+                              ORDER BY 
+                              TotalCustomers DESC;
+
+![q1 customer](https://github.com/user-attachments/assets/88445b74-e37a-4549-b2d0-d8bcbe4ebef1)
+
+
+            2. ------POPULAR SUBSCRIPTION TYPE BY THE NO OF CUSTOMER------
+                               SELECT 
+                                SubscriptionType, 
+                                COUNT(CustomerID) AS TotalCustomers
+                                FROM [dbo].[CustomerSales]
+                                GROUP BY 
+                                SubscriptionType
+                                 ORDER BY 
+                                TotalCustomers DESC
+                                
+ ![q2 customer](https://github.com/user-attachments/assets/af6ac3f6-a3b8-4fc7-a63d-fda4b0455c9f)
+
+             3. ------FIND THE CUSTOMER WHO CANCELLED THEIR SUBSCRIPTION WITHIN 6 MONTHS----
+                        SELECT Customerid, Subscriptionstart, subscriptionend
+                        FROM [dbo].[CustomerSales]
+                         WHERE DATEDIFF(month, subscriptionstart, subscriptionEND) <=6
+                        and subscriptionend IS NOT NULL;
+
+![q3 customer](https://github.com/user-attachments/assets/58af6518-349d-40e4-baae-0ad7f403c084)
+
+
+              4. -------calculate the average subscription duration for all customers----
+                      SELECT AVG(DATEDIFF(MONTH, SubscriptionStart, ISNULL(SubscriptionEnd, GETDATE()))) AS AverageSubscriptionDuration
+                      FROM [dbo].[CustomerSales]
+                      
+ ![q4 customer](https://github.com/user-attachments/assets/8fea368c-bb7c-413c-ab9a-008e71a563c4)
+                              
+
+              5.  ---- Customers with subscriptions longer than 12 months-----
+                           SELECT customerid, subscriptionstart, subscriptionend
+                            FROM [dbo].[CustomerSales]
+                           WHERE DATEDIFF(MONTH, subscriptionstart, ISNULL(subscriptionend, GETDATE ())) > 12;
+                           
+![q5 customer](https://github.com/user-attachments/assets/28c6b558-786f-4383-8fbf-995db3e0b7a9)
+
+
+                6. ------TOTAL REVENUE BY SUBSCRIPTION TYPE------
+                       SELECT SubscriptionType, SUM(REVENUE) AS TOTAL_REVENUE
+                       FROM [dbo].[CustomerSales]
+                       GROUP BY SubscriptionType;
+
+![q6 customer](https://github.com/user-attachments/assets/5422ae58-0d90-49c2-8d49-f0c37aa77bfa)
+
+
+                7.  -----top 3 Regions by Subscription cancellations------
+                         SELECT TOP (3) [Region], COUNT([CustomerID]) AS Cancellationcount
+                          from [dbo].[CustomerSales]
+                          where [Canceled] = 'TRUE'
+                          GROUP BY [Region]
+                          ORDER BY Cancellationcount DESC
+
+![q7 customer](https://github.com/user-attachments/assets/032250bf-d39c-42b1-80e7-01a605e20ffd)
+
+
+                  8. -----total number of active and cancelled subscription-------
+                              SELECT 
+                              Canceled, 
+                              COUNT (CustomerID) AS TotalSubscriptions
+                              FROM [dbo].[CustomerSales]
+                              GROUP BY 
+                              Canceled
+
+![q8 customer](https://github.com/user-attachments/assets/1405cbf2-9cda-495b-aeed-6fcb846e1677)
+
 
 
