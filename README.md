@@ -13,10 +13,10 @@ The Capstone Project is a comprehensive data analysis initiative designed to app
 
 #### PROJECT OBJECTIVES:
 ---------------------
-Data Collection and Preparation: Gather various datasets relevant to the project's theme, ensuring they are clean, organized, and ready for analysis.
-Data Analysis Using Excel: Utilize Excel's powerful functions and features, such as pivot tables, formulas, and charts, to conduct exploratory data analysis and derive preliminary insights.
-Database Management with SQL: Employ SQL to manipulate and query data from relational databases. This includes filtering, aggregating, and joining datasets to prepare for deeper analysis.
-Data Visualization with Power BI: Create interactive dashboards and visual reports in Power BI, showcasing the findings from the analysis. This allows stakeholders to easily interpret data trends and patterns.
+  - Data Collection and Preparation: Gather various datasets relevant to the project's theme, ensuring they are clean, organized, and ready for analysis.
+  - Data Analysis Using Excel: Utilize Excel's powerful functions and features, such as pivot tables, formulas, and charts, to conduct exploratory data analysis and derive preliminary insights.
+  - Database Management with SQL: Employ SQL to manipulate and query data from relational databases. This includes filtering, aggregating, and joining datasets to prepare for deeper analysis.
+  - Data Visualization with Power BI: Create interactive dashboards and visual reports in Power BI, showcasing the findings from the analysis. This allows stakeholders to easily interpret data trends and patterns.
 
 
 #### EXPECTED OUTCOMES:
@@ -26,7 +26,8 @@ This capstone project reinforces analytical skills and provides practical experi
 
 #### PROJECT 2: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using EXCEL
 -----------------
-This project involves analyzing customer data for a subscription service to identify segments and trends. My goal is to understand customer behavior, track subscription types,  and identify key trends in cancellations and renewals. The final deliverable is a Power BI dashboard that presents your analysis.
+This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals. The final deliverable is a Power BI dashboard that presents your analysis.
+
 
    - Excel:
      1. Analyze customer data using pivot tables to find subscription patterns.
@@ -36,15 +37,15 @@ This project involves analyzing customer data for a subscription service to iden
 ### DATA SOURCES
 ----------------
 The Data sources include the following key points:
-    1. Customer_Id: A unique identifier for each customer, linking them to specific orders and other relevant customer details.
-    2. CustomerName: The name of the individual or organization that holds the subscription.
-    3. Region: The geographical area where the order is placed.
-    4. Subscription Type: The category or level of a subscription that a customer purchases, such as "basic," "premium," or "standard."
-    5. Subscription Start: The date on which a customer's subscription officially begins.
-    6. Subscription End: The date on which a customer's subscription is set to expire, unless renewed.
-    7. Canceled: A status indicating whether a subscription has been terminated by the customer or provider before its end date.
-    8. Revenue: The total income generated from a customer's subscription over a specific period, often calculated based on the subscription price.
-    9. Subscription Duration: The length of time a subscription is active, calculated as the difference between the start and end dates.
+   1. Customer_Id: A unique identifier for each customer, linking them to specific orders and other relevant customer details.
+   2. CustomerName: The name of the individual or organization that holds the subscription.
+   3. Region: The geographical area where the order is placed.
+   4. Subscription Type: The category or level of a subscription that a customer purchases, such as "basic," "premium," or "standard."
+   5. Subscription Start: The date on which a customer's subscription officially begins.
+   6. Subscription End: The date on which a customer's subscription is set to expire, unless renewed.
+   7. Canceled: A status indicating whether a subscription has been terminated by the customer or provider before its end date.
+   8. Revenue: The total income generated from a customer's subscription over a specific period, often calculated based on the subscription price.
+   9. Subscription Duration: The length of time a subscription is active, calculated as the difference between the start and end dates.
 
 These datasets collectively provide a comprehensive view of sales performance, customer behavior, and subscription trends, enabling informed decision-making.
 
@@ -75,4 +76,28 @@ These datasets collectively provide a comprehensive view of sales performance, c
     
     
      
+
+### PROJECT 1B: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL
+---------------------------------
+This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
+This project uses SQL (Structured Query Language) to analyze and extract meaningful insights from a dataset. The objective is to showcase how SQL can be used to query, manipulate, and transform data to solve business problems, uncover trends, and generate actionable findings. Working with a structured database, various SQL commands and techniques will be applied, including data filtering, aggregation, joins, and subqueries.
+
+#### TOOLS USED
+------------------
+Microsoft SQL Management Studio
+
+ ### EXPLORATORY DATA ANALYSIS 
+Write queries to extract key insights based on the following questions.
+------------------------------------
+ 1. retrieve the total number of customers from each region.
+ 2. find the most popular subscription type by the number of customers.
+ 3. find customers who canceled their subscription within 6 months.
+ 4. calculate the average subscription duration for all customers.
+ 5. find customers with subscriptions longer than 12 months.
+ 6. calculate total revenue by subscription type.
+ 7. find the top 3 regions by subscription cancellations.
+ 8. find the total number of active and canceled subscriptions.
+
+
+
 
