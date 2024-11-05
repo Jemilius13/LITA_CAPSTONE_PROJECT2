@@ -43,7 +43,7 @@ The Data sources include the following key points:
    4. Subscription Type: The category or level of a subscription that a customer purchases, such as "basic," "premium," or "standard."
    5. Subscription Start: The date on which a customer's subscription officially begins.
    6. Subscription End: The date on which a customer's subscription is set to expire unless renewed.
-   7. Canceled: A status indicating whether a subscription has been terminated by the customer or provider before its end date.
+   7. Canceled: A status indicating whether the customer or provider has terminated a subscription before its end date.
    8. Revenue: The total income generated from a customer's subscription over a specific period, often calculated based on the subscription price.
    9. Subscription Duration: The length of time a subscription is active, calculated as the difference between the start and end dates.
 
@@ -53,13 +53,11 @@ These datasets collectively provide a comprehensive view of sales performance, c
 ### METRICS OF FOCUS
 -------------------------
    1. Subscription Patterns: This comprises of the following;
-   2. djh
-   3. nxn
-   4. b h
-   5. hvhdc
-   6. hbc
-   7. Average Subscription duration:
-   8. the Most Popular Subscription Type:
+   -  Subscription Count: The total number of active subscriptions within a given period. 
+   Revenue by Subscription Type: The total revenue generated, broken down by each subscription type. This helps identify which subscription types contribute most to the business's revenue.
+   -   Average Revenue by type: The average revenue generated per subscription type, is calculated by dividing total revenue by the number of subscriptions to each type. It indicates the average value of each subscription type.
+   -   Average Subscription Duration: The average length of time customers remain subscribed, calculated by measuring the duration of subscriptions and averaging them. 
+   -   Popular Subscription Type: The subscription type with the highest number of subscribers, indicating which tier or product is most favored by customers. This metric helps understand customer preferences and product popularity.
 
 ### TOOLS USED
 ----------------------
