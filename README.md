@@ -1,7 +1,7 @@
 # LITA_CAPSTONE_PROJECT2
 ------------------
 Introduction to the Capstone Project on Data Analysis. The Capstone Project is a comprehensive data analysis initiative that uses datasets to extract meaningful insights and drive informed decision-making. This project integrates various data analysis tools and techniques, specifically Excel, SQL, and Power BI, to showcase a holistic data management and visualization approach.
-Throughout the project, we will work with diverse datasets that require cleaning, manipulation, and analysis to uncover trends and patterns. Utilizing Excel, we will perform initial data exploration and analysis, applying functions and pivot tables to summarize key findings. Next, SQL will be employed for more advanced data querying and management, allowing us to efficiently retrieve and manipulate large datasets from relational databases.
+Throughout the project, we will work with diverse datasets that require cleaning, manipulation, and analysis to uncover trends and patterns. Utilizing Excel, we will perform initial data exploration and analysis, applying functions and pivot tables to summarize key findings. Next, SQL will be employed for more advanced data querying and management, allowing us to retrieve and manipulate large datasets from relational databases efficiently.
 Finally, we will harness the power of Power BI to create interactive visualizations and dashboards that present our findings in a user-friendly format. This will enable stakeholders to engage with the data dynamically, facilitating a deeper understanding of the insights derived from the analysis. Overall, this Capstone Project aims to enhance our data analysis skills and demonstrate our ability to effectively utilize analytical tools to solve real-world problems, ultimately contributing to data-driven decision-making processes.
 
 #### Project title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
@@ -42,7 +42,7 @@ The Data sources include the following key points:
    3. Region: The geographical area where the order is placed.
    4. Subscription Type: The category or level of a subscription that a customer purchases, such as "basic," "premium," or "standard."
    5. Subscription Start: The date on which a customer's subscription officially begins.
-   6. Subscription End: The date on which a customer's subscription is set to expire, unless renewed.
+   6. Subscription End: The date on which a customer's subscription is set to expire unless renewed.
    7. Canceled: A status indicating whether a subscription has been terminated by the customer or provider before its end date.
    8. Revenue: The total income generated from a customer's subscription over a specific period, often calculated based on the subscription price.
    9. Subscription Duration: The length of time a subscription is active, calculated as the difference between the start and end dates.
@@ -71,11 +71,49 @@ These datasets collectively provide a comprehensive view of sales performance, c
 
 ### DATA VISUALIZATION
 --------------------------
+1. ## SUBSCRIPTION PATTERNS
+PIVOT TABLE
+-------
+
+![subs-count customer](https://github.com/user-attachments/assets/3d739ab3-3ae2-4cec-b256-2fc98fd843aa)
+
+![revenue by sub-type customer](https://github.com/user-attachments/assets/165c983a-4d8e-4661-83b8-1ee120308018)
+
+![average revenue by type customer](https://github.com/user-attachments/assets/1b6d203a-1c62-45b6-9caa-ee9432f740f8)
 
 
+
+
+
+
+
+### Calculate the average subscription duration and identify the most popular subscription types.
+
+
+ #####   average subscription duration
+![average sub-duartion customer](https://github.com/user-attachments/assets/dd96d82f-2902-4247-bc0b-705d19f789e3)
+
+                      formula
+                      =AVERAGE(J2:J33788)
+
+ ![AVERAGE SUBSCRIPTIONDURATION,EXCEL](https://github.com/user-attachments/assets/b97eb4aa-7d0c-4ef1-915a-fd2b94020eb2)
+
+-------------------------------------- 
+##### most popular subscription types
+![mostpopular](https://github.com/user-attachments/assets/c309e2e0-7996-4f54-b93e-d4444dbe215f)
+
+                    Formula
+                    =COUNTIF(D:D,"Basic")
+                    =COUNTIF(D:D,"Premium")
+                    =COUNTIF(D:D,"Standard")
+
+
+![popularsubchart](https://github.com/user-attachments/assets/5b6dac61-f1de-4cdb-bccb-f8248b7a4f05)
+
+ ### Create any other interesting reports.
+ -------
+ 
     
-    
-     
 
 ### PROJECT 1B: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL
 ---------------------------------
