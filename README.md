@@ -115,11 +115,6 @@ PIVOT TABLE
 ![average revenue by type customer](https://github.com/user-attachments/assets/1b6d203a-1c62-45b6-9caa-ee9432f740f8)
 
 
-
-
-
-
-
 ### Calculate the average subscription duration and identify the most popular subscription types.
 
 
@@ -143,7 +138,7 @@ PIVOT TABLE
 
 ![popularsubchart](https://github.com/user-attachments/assets/5b6dac61-f1de-4cdb-bccb-f8248b7a4f05)
 
- ### Create any other interesting reports.
+ ### OTHER INTERESTING REPORTS.
  -------
  
     
@@ -293,7 +288,11 @@ This dashboard provides an interactive and comprehensive view of our sales perfo
   
 ![MONTHLY TREND](https://github.com/user-attachments/assets/7ca6349a-6835-4566-a8df-2730b5edf519)
 
-### OTHER INTERESTING REPORTS USING VISUALS
+### CANCELLATION TRENDS:
 --------------------------
 
 ![TREND](https://github.com/user-attachments/assets/40a3f22f-b9de-4feb-bc66-579705b01b05)
+
+### CONCLUSION
+-------------------
+The Power BI dashboard provides a comprehensive view of customer segmentation, cancellations, and subscription trends, allowing for targeted analysis of customer behavior. By using slicers, users can interactively filter data by subscription type, cancellation status, and region, making it easy to identify high-value customer segments, regions with strong engagement, and trends in cancellations. This interactive approach helps pinpoint areas for improving customer retention, optimizing subscription offerings, and tailoring marketing strategies for specific customer groups.
