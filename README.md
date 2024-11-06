@@ -287,3 +287,13 @@ This dashboard provides an interactive and comprehensive view of our sales perfo
   3. Count of CustomerID by Subscription Type and Region: This segmentation shows the distribution of unique customers across different subscription types and regions. It helps identify regional preferences for specific subscription types, allowing for targeted regional marketing or localization strategies. For instance, if a particular region prefers monthly plans, offers could be tailored to encourage upgrades or long-term commitments.
 
 ![CUSTOMER SEGMENT](https://github.com/user-attachments/assets/e6b1e1cd-56c1-4249-98e8-2ea67ecc2b3b)
+
+  C. SUBSCRIPTION TRENDS:
+  ---------------------------
+  
+![MONTHLY TREND](https://github.com/user-attachments/assets/7ca6349a-6835-4566-a8df-2730b5edf519)
+
+### OTHER INTERESTING REPORTS USING VISUALS
+--------------------------
+
+![TREND](https://github.com/user-attachments/assets/40a3f22f-b9de-4feb-bc66-579705b01b05)
