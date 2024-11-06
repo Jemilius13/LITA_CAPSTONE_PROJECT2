@@ -217,3 +217,15 @@ Write queries to extract key insights based on the following questions.
 
 
 
+PROJECT 1C: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING POWERBI
+---------------------------
+I am creating a dashboard that visualizes the insights found in Excel and SQL. The dashboard should include a sales overview, top-performing products, and regional breakdowns.
+
+### TOOLS USED
+Microsoft PowerBI Desktop
+
+### Dashboard Overview
+This dashboard provides an interactive and comprehensive view of our sales performance, top-performing products, and regional sales breakdown. By combining insights from Excel analysis and SQL queries, we’ve organized the dashboard into three main sections to support strategic decision-making and uncover trends within our customer base.
+
+![visuals pbi](https://github.com/user-attachments/assets/24610036-957c-4f41-aba2-c1def0c49cd2)
+
