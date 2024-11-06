@@ -6,6 +6,41 @@ Finally, we will harness the power of Power BI to create interactive visualizati
 
 #### Project title: "A Comprehensive Data Analysis Approach: Excel, SQL, and Power BI Integration"
 
+[CAPSTONE PROJECT OVERVIEW](#capstone-project-overview)
+
+[PROJECT OVERVIEW](#project-objectives)
+
+[EXPECTED OUTCOMES](#expected-outcomes)
+
+[PROJECT 2 CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using EXCEL](#project-2-customer-segmentation-for-a-subscription-service-using-excel)
+
+[DATA SOURCES](#data-sources)
+
+[METRICS OF FOCUS](#metrics-of-focus)
+
+[TOOLS USED](#tools-used)
+
+[DATA VISUALIZATION](#data-visualization)
+
+[OTHER INTERESTING REPORTS](#other-interesting-reports)
+
+[PROJECT 2B CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL](#project-2b-customer-segmentation-for-a-subscription-service-using-sql)
+
+[TOOLS USED](#tools-used)
+
+[EXPLORATORY DATA ANALYSIS](#exploratory-data-analysis)
+
+[QUERIES AND OUTPUT](#queries-and-output)
+
+[PROJECT 2C CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL ](#project-2c-customer-segmentation-for-a-subscription-service-using-powerbi)
+
+[TOOLS USED](#tools-used)
+
+[DASHBOARD OVERVIEW](#dashboard-overview)
+
+[CONCLUSION](#conclusion)
+
+
 
 #### CAPSTONE PROJECT OVERVIEW:
 ----------------------
@@ -113,7 +148,7 @@ PIVOT TABLE
  
     
 
-### PROJECT 1B: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL
+### PROJECT 2B: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL
 ---------------------------------
 This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
 This project uses SQL (Structured Query Language) to analyze and extract meaningful insights from a dataset. The objective is to showcase how SQL can be used to query, manipulate, and transform data to solve business problems, uncover trends, and generate actionable findings. Working with a structured database, various SQL commands and techniques will be applied, including data filtering, aggregation, joins, and subqueries.
@@ -217,7 +252,7 @@ Write queries to extract key insights based on the following questions.
 
 
 
-PROJECT 1C: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING POWERBI
+PROJECT 2C: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using POWERBI
 ---------------------------
 I am creating a dashboard that visualizes the insights found in Excel and SQL. This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals. 
 
@@ -241,3 +276,14 @@ This dashboard provides an interactive and comprehensive view of our sales perfo
 
 
 ![CUSTOMER SUBSCRIPTION OVERVIEW](https://github.com/user-attachments/assets/88cd8e5c-5a83-4312-8be1-44c3144d8ee5)
+
+  B. CUSTOMER SEGMENTATION VISUALIZATION:
+  -------------------------------
+  Customer segmentation in subscriptions involves dividing the customer base into distinct groups based on shared characteristics, allowing for a more tailored approach to understanding and meeting customer needs. Here are common segments used in subscription-based analysis:
+  1. Subscription Type: This segmentation categorizes customers by the type of subscription they hold, such as monthly, annual, or premium plans. Analyzing by subscription type helps businesses see which plans are most popular, which drive the most revenue, and can guide pricing or bundling strategies.
+
+   2. Count of Subscriptions by Canceled: This metric shows the number of subscriptions that have been canceled. Segmenting by canceled subscriptions highlights customer churn, providing insights into which subscription types have the highest cancellation rates. It can also indicate if certain plans need improvements or targeted retention strategies.
+
+  3. Count of CustomerID by Subscription Type and Region: This segmentation shows the distribution of unique customers across different subscription types and regions. It helps identify regional preferences for specific subscription types, allowing for targeted regional marketing or localization strategies. For instance, if a particular region prefers monthly plans, offers could be tailored to encourage upgrades or long-term commitments.
+
+![CUSTOMER SEGMENT](https://github.com/user-attachments/assets/e6b1e1cd-56c1-4249-98e8-2ea67ecc2b3b)
