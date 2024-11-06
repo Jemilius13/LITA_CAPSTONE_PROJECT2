@@ -8,7 +8,7 @@ Finally, we will harness the power of Power BI to create interactive visualizati
 
 [CAPSTONE PROJECT OVERVIEW](#capstone-project-overview)
 
-[PROJECT OVERVIEW](#project-objectives)
+[PROJECT OBJECTIVES](#project-objectives)
 
 [EXPECTED OUTCOMES](#expected-outcomes)
 
@@ -140,9 +140,10 @@ PIVOT TABLE
 
  ### OTHER INTERESTING REPORTS.
  -------
- 
-    
+ ![CUSTOMERREPORT1](https://github.com/user-attachments/assets/54d3882d-dd2e-4830-9699-ed5b332e4328)
 
+
+  
 ### PROJECT 2B: CUSTOMER SEGMENTATION FOR A SUBSCRIPTION SERVICE using SQL
 ---------------------------------
 This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types, and identify key trends in cancellations and renewals.
