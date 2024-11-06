@@ -219,13 +219,25 @@ Write queries to extract key insights based on the following questions.
 
 PROJECT 1C: SALES PERFORMANCE ANALYSIS FOR A RETAIL STORE USING POWERBI
 ---------------------------
-I am creating a dashboard that visualizes the insights found in Excel and SQL. The dashboard should include a sales overview, top-performing products, and regional breakdowns.
+I am creating a dashboard that visualizes the insights found in Excel and SQL. This project involves analyzing customer data for a subscription service to identify segments and trends. Your goal is to understand customer behavior, track subscription types,and identify key trends in cancellations and renewals. 
 
 ### TOOLS USED
 Microsoft PowerBI Desktop
 
 ### Dashboard Overview
+-----------------------
 This dashboard provides an interactive and comprehensive view of our sales performance, top-performing products, and regional sales breakdown. By combining insights from Excel analysis and SQL queries, we’ve organized the dashboard into three main sections to support strategic decision-making and uncover trends within our customer base.
 
-![visuals pbi](https://github.com/user-attachments/assets/24610036-957c-4f41-aba2-c1def0c49cd2)
+  A. CUSTOMER SUBSCRIPTION OVERVIEW
+------------------------
 
+ 1. Total Revenue: This is the total income generated from all customer subscriptions. Calculating this metric helps in understanding the overall financial impact of subscriptions and aids in identifying high-revenue customer segments.       Total revenue can be calculated by summing up the revenue from all active and past subscriptions.
+
+ 2. Subscription Duration (Minimum and Maximum): This metric captures the range of time customers remain subscribed, which can indicate customer loyalty and subscription effectiveness. The minimum duration shows the shortest subscription length, which might highlight early cancellations or trial users, while the maximum duration reflects the longest, showing highly retained customers.
+
+ 3. Overall Subscription Count: This is the total number of active and completed subscriptions, giving a view of how many customers are engaging with the service. This can help identify patterns in customer acquisition and attrition, as     well as the general appeal of the subscription offerings.
+
+ 4. Average Revenue per Subscription: This is calculated by dividing the total revenue by the overall subscription count. It gives insight into how much revenue, on average, each subscription generates, helping assess the value of the average customer and compare segments.
+
+
+![CUSTOMER SUBSCRIPTION OVERVIEW](https://github.com/user-attachments/assets/88cd8e5c-5a83-4312-8be1-44c3144d8ee5)
