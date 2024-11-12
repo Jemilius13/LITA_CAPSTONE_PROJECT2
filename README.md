@@ -270,8 +270,9 @@ This dashboard provides an interactive and comprehensive view of our sales perfo
 
  4. Average Revenue per Subscription: This is calculated by dividing the total revenue by the overall subscription count. It gives insight into how much revenue, on average, each subscription generates, helping assess the value of the average customer and compare segments.
 
+![customer-overview](https://github.com/user-attachments/assets/0c421156-1fa0-44d3-a6b8-421163b5193c)
 
-![CUSTOMER SUBSCRIPTION OVERVIEW](https://github.com/user-attachments/assets/88cd8e5c-5a83-4312-8be1-44c3144d8ee5)
+
 
   B. CUSTOMER SEGMENTATION VISUALIZATION:
   -------------------------------
